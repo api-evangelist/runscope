@@ -1,0 +1,897 @@
+{
+    "id": "d9b2b747336d82169ff2b895e6821628",
+    "name": "Runscope API",
+    "description": null,
+    "auth": null,
+    "events": null,
+    "variables": [],
+    "order": [],
+    "folders_order": [],
+    "folders": [],
+    "requests": [
+        {
+            "id": "e73ab4c714a985ee4d4ef9903536b675",
+            "name": "Account Resource",
+            "url": "httpsapi.runscope.com\/\/account",
+            "description": "Information about the authorized account.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "d9b2b747336d82169ff2b895e6821628",
+            "rawModeData": ""
+        },
+        {
+            "id": "84c33de3312b1e1df7012ba537011028",
+            "name": "Returns a list of buckets.",
+            "url": "httpsapi.runscope.com\/\/buckets",
+            "description": "",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "d9b2b747336d82169ff2b895e6821628",
+            "rawModeData": ""
+        },
+        {
+            "id": "ccd26c499169f4b97c7410f20ee1c052",
+            "name": "Create a new bucket",
+            "url": "httpsapi.runscope.com\/\/buckets",
+            "description": "",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "post",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "NewBucket",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "d9b2b747336d82169ff2b895e6821628",
+            "rawModeData": ""
+        },
+        {
+            "id": "ce3b922af3b8cf69d98fc2e50e651308",
+            "name": "Delete a single bucket resource.",
+            "url": "httpsapi.runscope.com\/\/buckets\/{bucketKey}",
+            "description": "",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "delete",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "bucketKey",
+                    "description": "Unique identifier for a bucket",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "d9b2b747336d82169ff2b895e6821628",
+            "rawModeData": ""
+        },
+        {
+            "id": "3f7db3edc8c86bb54a34d33f899f28fd",
+            "name": "Returns a single bucket resource.",
+            "url": "httpsapi.runscope.com\/\/buckets\/{bucketKey}",
+            "description": "",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "bucketKey",
+                    "description": "Unique identifier for a bucket",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "d9b2b747336d82169ff2b895e6821628",
+            "rawModeData": ""
+        },
+        {
+            "id": "459ae9ccf568f0f61194566fa4ce6008",
+            "name": "Returns list of shared environments for a specified bucket.",
+            "url": "httpsapi.runscope.com\/\/buckets\/{bucketKey}\/environments",
+            "description": "",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "bucketKey",
+                    "description": "Unique identifier for a bucket",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "d9b2b747336d82169ff2b895e6821628",
+            "rawModeData": ""
+        },
+        {
+            "id": "3cd8c514aac00d2a6e8e870789303413",
+            "name": "Create new shared environment.",
+            "url": "httpsapi.runscope.com\/\/buckets\/{bucketKey}\/environments",
+            "description": "",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "post",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "bucketKey",
+                    "description": "Unique identifier for a bucket",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "NewEnvironment",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "d9b2b747336d82169ff2b895e6821628",
+            "rawModeData": ""
+        },
+        {
+            "id": "3f5c4adbcc5746a75f2c6c7217569b30",
+            "name": "Update the details of a test environment.",
+            "url": "httpsapi.runscope.com\/\/buckets\/{bucketKey}\/environments\/{environmentId}",
+            "description": "",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "put",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "bucketKey",
+                    "description": "Unique identifier for a bucket",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "environmentId",
+                    "description": "Unique identifier for a shared environment",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "ModifiedEnvironment",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "d9b2b747336d82169ff2b895e6821628",
+            "rawModeData": ""
+        },
+        {
+            "id": "cf239599a6cd0ac16e406ec20119dc93",
+            "name": "Retrieve a list of error messages in a bucket",
+            "url": "httpsapi.runscope.com\/\/buckets\/{bucketKey}\/errors",
+            "description": "",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "before",
+                    "description": "Only return messages before the given Unix timestamp",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "bucketKey",
+                    "description": "Unique identifier for a bucket",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "count",
+                    "description": "Maxiumum number of messages to return. Default 50, max 1000.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "since",
+                    "description": "Only return messages after the given Unix timestamp",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "d9b2b747336d82169ff2b895e6821628",
+            "rawModeData": ""
+        },
+        {
+            "id": "b9b4d95037d935c68d073838ade959de",
+            "name": "Clear a bucket (remove all messages).",
+            "url": "httpsapi.runscope.com\/\/buckets\/{bucketKey}\/messages",
+            "description": "",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "delete",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "bucketKey",
+                    "description": "Unique identifier for a bucket",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "d9b2b747336d82169ff2b895e6821628",
+            "rawModeData": ""
+        },
+        {
+            "id": "b71a1ad7ced527afb995596eeec49bdd",
+            "name": "Retrieve a list of messages in a bucket",
+            "url": "httpsapi.runscope.com\/\/buckets\/{bucketKey}\/messages",
+            "description": "",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "before",
+                    "description": "Only return messages before the given Unix timestamp",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "bucketKey",
+                    "description": "Unique identifier for a bucket",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "count",
+                    "description": "Maxiumum number of messages to return. Default 50, max 1000.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "since",
+                    "description": "Only return messages after the given Unix timestamp",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "d9b2b747336d82169ff2b895e6821628",
+            "rawModeData": ""
+        },
+        {
+            "id": "9956d636e42ab0bd6059119929413351",
+            "name": "Create a message",
+            "url": "httpsapi.runscope.com\/\/buckets\/{bucketKey}\/messages",
+            "description": "",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "post",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "NewMessage",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "d9b2b747336d82169ff2b895e6821628",
+            "rawModeData": ""
+        },
+        {
+            "id": "fcff47b8cbbbde3761fd23df8268e742",
+            "name": "Retrieve the details for a single message.",
+            "url": "httpsapi.runscope.com\/\/buckets\/{bucketKey}\/messages\/{messageId}",
+            "description": "",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "bucketKey",
+                    "description": "Unique identifier for a bucket",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "messageId",
+                    "description": "The unique identifier for this message",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "d9b2b747336d82169ff2b895e6821628",
+            "rawModeData": ""
+        },
+        {
+            "id": "a353da4e40f3adfe4d214913d92dda16",
+            "name": "Returns a list of tests.",
+            "url": "httpsapi.runscope.com\/\/buckets\/{bucketKey}\/tests",
+            "description": "",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "d9b2b747336d82169ff2b895e6821628",
+            "rawModeData": ""
+        },
+        {
+            "id": "325d7f9a2717a32c55a5e4755dbeae89",
+            "name": "Create a test.",
+            "url": "httpsapi.runscope.com\/\/buckets\/{bucketKey}\/tests",
+            "description": "",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "post",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "NewTest",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "d9b2b747336d82169ff2b895e6821628",
+            "rawModeData": ""
+        },
+        {
+            "id": "51a38e297da527e32176f2307fa32110",
+            "name": "Delete a single test.",
+            "url": "httpsapi.runscope.com\/\/buckets\/{bucketKey}\/tests\/{testId}",
+            "description": "",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "delete",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "testId",
+                    "description": "Unique identifier for a test",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "d9b2b747336d82169ff2b895e6821628",
+            "rawModeData": ""
+        },
+        {
+            "id": "959caae7e993e7be7d6bb66c557d778b",
+            "name": "Return details of the test's environments (only those that belong to the specified test)",
+            "url": "httpsapi.runscope.com\/\/buckets\/{bucketKey}\/tests\/{testId}\/environments",
+            "description": "",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "bucketKey",
+                    "description": "Unique identifier for a bucket",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "testId",
+                    "description": "Unique identifier for a test",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "d9b2b747336d82169ff2b895e6821628",
+            "rawModeData": ""
+        },
+        {
+            "id": "13155b764bb723c0f31a71346c731202",
+            "name": "Create new test environment.",
+            "url": "httpsapi.runscope.com\/\/buckets\/{bucketKey}\/tests\/{testId}\/environments",
+            "description": "",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "post",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "bucketKey",
+                    "description": "Unique identifier for a bucket",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "NewEnvironment",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "testId",
+                    "description": "Unique identifier for a test",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "d9b2b747336d82169ff2b895e6821628",
+            "rawModeData": ""
+        },
+        {
+            "id": "a5c791fba8434923366214f9450d540b",
+            "name": "Update the details of a test environment.",
+            "url": "httpsapi.runscope.com\/\/buckets\/{bucketKey}\/tests\/{testId}\/environments\/{environmentId}",
+            "description": "",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "put",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "bucketKey",
+                    "description": "Unique identifier for a bucket",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "environmentId",
+                    "description": "Unique identifier for a shared environment",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "ModifiedEnvironment",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "testId",
+                    "description": "Unique identifier for a test",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "d9b2b747336d82169ff2b895e6821628",
+            "rawModeData": ""
+        },
+        {
+            "id": "be2e263fa7803c43c37d6d9eca680764",
+            "name": "List test steps for a test.",
+            "url": "httpsapi.runscope.com\/\/buckets\/{bucketKey}\/tests\/{testId}\/steps",
+            "description": "",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "testId",
+                    "description": "Unique identifier for a test",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "d9b2b747336d82169ff2b895e6821628",
+            "rawModeData": ""
+        },
+        {
+            "id": "3914ca6a0b45cd9da8fcc0f227d0ab52",
+            "name": "Add new test step.",
+            "url": "httpsapi.runscope.com\/\/buckets\/{bucketKey}\/tests\/{testId}\/steps",
+            "description": "",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "post",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "NewStep",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "testId",
+                    "description": "Unique identifier for a test",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "d9b2b747336d82169ff2b895e6821628",
+            "rawModeData": ""
+        },
+        {
+            "id": "840614f5f4adb0508e4f6ee0eb1b4c1a",
+            "name": "Delete a step from a test.",
+            "url": "httpsapi.runscope.com\/\/buckets\/{bucketKey}\/tests\/{testId}\/steps\/{stepId}",
+            "description": "",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "delete",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "stepId",
+                    "description": "Unique identifier for a step",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "testId",
+                    "description": "Unique identifier for a test",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "d9b2b747336d82169ff2b895e6821628",
+            "rawModeData": ""
+        },
+        {
+            "id": "2ec47ececb143aee71ae164a4116d358",
+            "name": "Update the details of a single test step.",
+            "url": "httpsapi.runscope.com\/\/buckets\/{bucketKey}\/tests\/{testId}\/steps\/{stepId}",
+            "description": "",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "put",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "NewStep",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "testId",
+                    "description": "Unique identifier for a test",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "d9b2b747336d82169ff2b895e6821628",
+            "rawModeData": ""
+        },
+        {
+            "id": "25bc9edecf90442df6496ee2fb68017d",
+            "name": "Team integrations list",
+            "url": "httpsapi.runscope.com\/\/teams\/{teamId}\/integrations",
+            "description": "Returns a list of integrations configured for the team.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "teamId",
+                    "description": "Unique identifier for team",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "d9b2b747336d82169ff2b895e6821628",
+            "rawModeData": ""
+        },
+        {
+            "id": "2f4834a7e3c08c060d814e508273d2f7",
+            "name": "Teams Resource",
+            "url": "httpsapi.runscope.com\/\/teams\/{teamId}\/people",
+            "description": "List people and integrations associated with a given team.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "teamId",
+                    "description": "Unique identifier for team",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "d9b2b747336d82169ff2b895e6821628",
+            "rawModeData": ""
+        }
+    ]
+}
