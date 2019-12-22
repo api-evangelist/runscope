@@ -1,5 +1,5 @@
 {
-    "id": "d9b2b747336d82169ff2b895e6821628",
+    "id": "0fbf0b5c70748eb6bf8cd627f2034536",
     "name": "Runscope API",
     "description": null,
     "auth": null,
@@ -10,7 +10,7 @@
     "folders": [],
     "requests": [
         {
-            "id": "e73ab4c714a985ee4d4ef9903536b675",
+            "id": "e921a6ec648dfa138a677b0a95433400",
             "name": "Account Resource",
             "url": "httpsapi.runscope.com\/\/account",
             "description": "Information about the authorized account.",
@@ -29,11 +29,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "d9b2b747336d82169ff2b895e6821628",
+            "collectionId": "0fbf0b5c70748eb6bf8cd627f2034536",
             "rawModeData": ""
         },
         {
-            "id": "84c33de3312b1e1df7012ba537011028",
+            "id": "788b0cb51dd9ebc11f52b59443525ce9",
             "name": "Returns a list of buckets.",
             "url": "httpsapi.runscope.com\/\/buckets",
             "description": "",
@@ -52,11 +52,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "d9b2b747336d82169ff2b895e6821628",
+            "collectionId": "0fbf0b5c70748eb6bf8cd627f2034536",
             "rawModeData": ""
         },
         {
-            "id": "ccd26c499169f4b97c7410f20ee1c052",
+            "id": "4500e0920f1339b31d9d8cfe6e1f31f9",
             "name": "Create a new bucket",
             "url": "httpsapi.runscope.com\/\/buckets",
             "description": "",
@@ -83,11 +83,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "d9b2b747336d82169ff2b895e6821628",
+            "collectionId": "0fbf0b5c70748eb6bf8cd627f2034536",
             "rawModeData": ""
         },
         {
-            "id": "ce3b922af3b8cf69d98fc2e50e651308",
+            "id": "b3677ae6a50e08c61d74fd581673465f",
             "name": "Delete a single bucket resource.",
             "url": "httpsapi.runscope.com\/\/buckets\/{bucketKey}",
             "description": "",
@@ -114,11 +114,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "d9b2b747336d82169ff2b895e6821628",
+            "collectionId": "0fbf0b5c70748eb6bf8cd627f2034536",
             "rawModeData": ""
         },
         {
-            "id": "3f7db3edc8c86bb54a34d33f899f28fd",
+            "id": "ca177bb45b035ffa396cdd4cbb5b5aa2",
             "name": "Returns a single bucket resource.",
             "url": "httpsapi.runscope.com\/\/buckets\/{bucketKey}",
             "description": "",
@@ -145,11 +145,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "d9b2b747336d82169ff2b895e6821628",
+            "collectionId": "0fbf0b5c70748eb6bf8cd627f2034536",
             "rawModeData": ""
         },
         {
-            "id": "459ae9ccf568f0f61194566fa4ce6008",
+            "id": "659ab270bf2bb020fd74d81823b85be2",
             "name": "Returns list of shared environments for a specified bucket.",
             "url": "httpsapi.runscope.com\/\/buckets\/{bucketKey}\/environments",
             "description": "",
@@ -176,11 +176,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "d9b2b747336d82169ff2b895e6821628",
+            "collectionId": "0fbf0b5c70748eb6bf8cd627f2034536",
             "rawModeData": ""
         },
         {
-            "id": "3cd8c514aac00d2a6e8e870789303413",
+            "id": "eb8c2bc2e25b4e9461491fb462125cb5",
             "name": "Create new shared environment.",
             "url": "httpsapi.runscope.com\/\/buckets\/{bucketKey}\/environments",
             "description": "",
@@ -214,11 +214,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "d9b2b747336d82169ff2b895e6821628",
+            "collectionId": "0fbf0b5c70748eb6bf8cd627f2034536",
             "rawModeData": ""
         },
         {
-            "id": "3f5c4adbcc5746a75f2c6c7217569b30",
+            "id": "a5757c47c432b8ce72f67e14764e2f5f",
             "name": "Update the details of a test environment.",
             "url": "httpsapi.runscope.com\/\/buckets\/{bucketKey}\/environments\/{environmentId}",
             "description": "",
@@ -259,11 +259,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "d9b2b747336d82169ff2b895e6821628",
+            "collectionId": "0fbf0b5c70748eb6bf8cd627f2034536",
             "rawModeData": ""
         },
         {
-            "id": "cf239599a6cd0ac16e406ec20119dc93",
+            "id": "2a580d093fbbef20daedc80128258cf2",
             "name": "Retrieve a list of error messages in a bucket",
             "url": "httpsapi.runscope.com\/\/buckets\/{bucketKey}\/errors",
             "description": "",
@@ -311,11 +311,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "d9b2b747336d82169ff2b895e6821628",
+            "collectionId": "0fbf0b5c70748eb6bf8cd627f2034536",
             "rawModeData": ""
         },
         {
-            "id": "b9b4d95037d935c68d073838ade959de",
+            "id": "5c3622391aef5f7e1c4682f2300b7a09",
             "name": "Clear a bucket (remove all messages).",
             "url": "httpsapi.runscope.com\/\/buckets\/{bucketKey}\/messages",
             "description": "",
@@ -342,11 +342,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "d9b2b747336d82169ff2b895e6821628",
+            "collectionId": "0fbf0b5c70748eb6bf8cd627f2034536",
             "rawModeData": ""
         },
         {
-            "id": "b71a1ad7ced527afb995596eeec49bdd",
+            "id": "2b395bcc776b61bbe1c33c1bf535e593",
             "name": "Retrieve a list of messages in a bucket",
             "url": "httpsapi.runscope.com\/\/buckets\/{bucketKey}\/messages",
             "description": "",
@@ -394,11 +394,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "d9b2b747336d82169ff2b895e6821628",
+            "collectionId": "0fbf0b5c70748eb6bf8cd627f2034536",
             "rawModeData": ""
         },
         {
-            "id": "9956d636e42ab0bd6059119929413351",
+            "id": "4188bbd117b0f9ad0e312480c92eb31a",
             "name": "Create a message",
             "url": "httpsapi.runscope.com\/\/buckets\/{bucketKey}\/messages",
             "description": "",
@@ -425,11 +425,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "d9b2b747336d82169ff2b895e6821628",
+            "collectionId": "0fbf0b5c70748eb6bf8cd627f2034536",
             "rawModeData": ""
         },
         {
-            "id": "fcff47b8cbbbde3761fd23df8268e742",
+            "id": "bc6b039d8a0352a1139e0024886d7da8",
             "name": "Retrieve the details for a single message.",
             "url": "httpsapi.runscope.com\/\/buckets\/{bucketKey}\/messages\/{messageId}",
             "description": "",
@@ -463,11 +463,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "d9b2b747336d82169ff2b895e6821628",
+            "collectionId": "0fbf0b5c70748eb6bf8cd627f2034536",
             "rawModeData": ""
         },
         {
-            "id": "a353da4e40f3adfe4d214913d92dda16",
+            "id": "43792a5655c74de07e771b8393eee1d3",
             "name": "Returns a list of tests.",
             "url": "httpsapi.runscope.com\/\/buckets\/{bucketKey}\/tests",
             "description": "",
@@ -486,11 +486,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "d9b2b747336d82169ff2b895e6821628",
+            "collectionId": "0fbf0b5c70748eb6bf8cd627f2034536",
             "rawModeData": ""
         },
         {
-            "id": "325d7f9a2717a32c55a5e4755dbeae89",
+            "id": "626097b273998045ce076e25fd14b94e",
             "name": "Create a test.",
             "url": "httpsapi.runscope.com\/\/buckets\/{bucketKey}\/tests",
             "description": "",
@@ -517,11 +517,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "d9b2b747336d82169ff2b895e6821628",
+            "collectionId": "0fbf0b5c70748eb6bf8cd627f2034536",
             "rawModeData": ""
         },
         {
-            "id": "51a38e297da527e32176f2307fa32110",
+            "id": "2cee0600bd024decb06447ebdde379b9",
             "name": "Delete a single test.",
             "url": "httpsapi.runscope.com\/\/buckets\/{bucketKey}\/tests\/{testId}",
             "description": "",
@@ -548,11 +548,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "d9b2b747336d82169ff2b895e6821628",
+            "collectionId": "0fbf0b5c70748eb6bf8cd627f2034536",
             "rawModeData": ""
         },
         {
-            "id": "959caae7e993e7be7d6bb66c557d778b",
+            "id": "953da13ef373eee9c61f92705a64f42c",
             "name": "Return details of the test's environments (only those that belong to the specified test)",
             "url": "httpsapi.runscope.com\/\/buckets\/{bucketKey}\/tests\/{testId}\/environments",
             "description": "",
@@ -586,11 +586,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "d9b2b747336d82169ff2b895e6821628",
+            "collectionId": "0fbf0b5c70748eb6bf8cd627f2034536",
             "rawModeData": ""
         },
         {
-            "id": "13155b764bb723c0f31a71346c731202",
+            "id": "fa82d26f6eb6f92a342e0d1c13947026",
             "name": "Create new test environment.",
             "url": "httpsapi.runscope.com\/\/buckets\/{bucketKey}\/tests\/{testId}\/environments",
             "description": "",
@@ -631,11 +631,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "d9b2b747336d82169ff2b895e6821628",
+            "collectionId": "0fbf0b5c70748eb6bf8cd627f2034536",
             "rawModeData": ""
         },
         {
-            "id": "a5c791fba8434923366214f9450d540b",
+            "id": "424629e4b69a3031df989247d85d3183",
             "name": "Update the details of a test environment.",
             "url": "httpsapi.runscope.com\/\/buckets\/{bucketKey}\/tests\/{testId}\/environments\/{environmentId}",
             "description": "",
@@ -683,11 +683,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "d9b2b747336d82169ff2b895e6821628",
+            "collectionId": "0fbf0b5c70748eb6bf8cd627f2034536",
             "rawModeData": ""
         },
         {
-            "id": "be2e263fa7803c43c37d6d9eca680764",
+            "id": "591bf9463252a09e25dfff296da9b070",
             "name": "List test steps for a test.",
             "url": "httpsapi.runscope.com\/\/buckets\/{bucketKey}\/tests\/{testId}\/steps",
             "description": "",
@@ -714,11 +714,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "d9b2b747336d82169ff2b895e6821628",
+            "collectionId": "0fbf0b5c70748eb6bf8cd627f2034536",
             "rawModeData": ""
         },
         {
-            "id": "3914ca6a0b45cd9da8fcc0f227d0ab52",
+            "id": "a6b94554fda08f5b4a7223ad035cf2ec",
             "name": "Add new test step.",
             "url": "httpsapi.runscope.com\/\/buckets\/{bucketKey}\/tests\/{testId}\/steps",
             "description": "",
@@ -752,11 +752,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "d9b2b747336d82169ff2b895e6821628",
+            "collectionId": "0fbf0b5c70748eb6bf8cd627f2034536",
             "rawModeData": ""
         },
         {
-            "id": "840614f5f4adb0508e4f6ee0eb1b4c1a",
+            "id": "e1286336c39cbdac89f1f1148448e579",
             "name": "Delete a step from a test.",
             "url": "httpsapi.runscope.com\/\/buckets\/{bucketKey}\/tests\/{testId}\/steps\/{stepId}",
             "description": "",
@@ -790,11 +790,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "d9b2b747336d82169ff2b895e6821628",
+            "collectionId": "0fbf0b5c70748eb6bf8cd627f2034536",
             "rawModeData": ""
         },
         {
-            "id": "2ec47ececb143aee71ae164a4116d358",
+            "id": "ad7c67f61f7842e8269ab891bbe10c8a",
             "name": "Update the details of a single test step.",
             "url": "httpsapi.runscope.com\/\/buckets\/{bucketKey}\/tests\/{testId}\/steps\/{stepId}",
             "description": "",
@@ -828,11 +828,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "d9b2b747336d82169ff2b895e6821628",
+            "collectionId": "0fbf0b5c70748eb6bf8cd627f2034536",
             "rawModeData": ""
         },
         {
-            "id": "25bc9edecf90442df6496ee2fb68017d",
+            "id": "9e07bbc63b09133bc13ea03ffb97ecce",
             "name": "Team integrations list",
             "url": "httpsapi.runscope.com\/\/teams\/{teamId}\/integrations",
             "description": "Returns a list of integrations configured for the team.",
@@ -859,11 +859,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "d9b2b747336d82169ff2b895e6821628",
+            "collectionId": "0fbf0b5c70748eb6bf8cd627f2034536",
             "rawModeData": ""
         },
         {
-            "id": "2f4834a7e3c08c060d814e508273d2f7",
+            "id": "8572be526238a38b3762b82af28f0456",
             "name": "Teams Resource",
             "url": "httpsapi.runscope.com\/\/teams\/{teamId}\/people",
             "description": "List people and integrations associated with a given team.",
@@ -890,7 +890,7 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "d9b2b747336d82169ff2b895e6821628",
+            "collectionId": "0fbf0b5c70748eb6bf8cd627f2034536",
             "rawModeData": ""
         }
     ]
