@@ -1,0 +1,20 @@
+generated: '2026-07-21'
+method: searched
+source: https://help.blazemeter.com/apidocs/api-monitoring/index.htm
+versioning:
+  scheme: none-published
+  notes: >-
+    The Runscope API host is api.runscope.com with unversioned resource paths
+    (e.g. /buckets, /account). No public API versioning or deprecation policy
+    is documented since the product became BlazeMeter API Monitoring.
+status_page: https://status.blazemeter.com
+sla:
+  url: null
+deprecation:
+  policy_url: null
+  sunset_header: false
+notes: >-
+  Runscope was acquired by CA Technologies (2017) and is now delivered as
+  BlazeMeter API Monitoring under Perforce. Status is reported on the shared
+  BlazeMeter status page. No standalone Runscope deprecation or versioning
+  policy is published.

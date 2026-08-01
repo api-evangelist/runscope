@@ -1,0 +1,19 @@
+generated: '2026-07-21'
+method: searched
+hosts:
+- host: https://www.runscope.com
+  documents:
+  - path: /.well-known/security.txt
+    status: 404
+- host: https://api.runscope.com
+  documents:
+  - path: /.well-known/security.txt
+    status: 404
+  - path: /.well-known/openid-configuration
+    status: 404
+  - path: /.well-known/oauth-authorization-server
+    status: 404
+notes: >-
+  No /.well-known discovery documents are published on the Runscope hosts;
+  every probed path returned 404. Runscope now redirects into BlazeMeter
+  (Perforce) infrastructure. Absence recorded as valid data.

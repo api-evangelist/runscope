@@ -1,0 +1,38 @@
+generated: '2026-07-21'
+method: searched
+source: https://help.blazemeter.com/apidocs/api-monitoring/index.htm
+summary:
+  types:
+  - oauth2
+  - http
+  api_key_in: []
+  oauth2_flows:
+  - authorizationCode
+notes: >-
+  The Runscope (now BlazeMeter API Monitoring) REST API authenticates requests
+  with a bearer token supplied in the Authorization header. Tokens are obtained
+  either through the OAuth2 authorization-code flow for third-party
+  applications, or as a Personal Access Token generated from the account's
+  Applications settings for personal/first-party use. Derived from the
+  published API reference docs; no OpenAPI is available in this repo to derive
+  a mechanical profile from.
+schemes:
+- name: bearerAuth
+  type: http
+  scheme: bearer
+  description: >-
+    Authorization header bearer token. Accepts an OAuth2 access token or a
+    Personal Access Token.
+  sources:
+  - https://help.blazemeter.com/apidocs/api-monitoring/index.htm
+- name: oauth2
+  type: oauth2
+  description: >-
+    OAuth2 authorization-code flow for applications acting on behalf of a
+    Runscope/BlazeMeter user.
+  flows:
+  - flow: authorizationCode
+    authorizationUrl: https://www.runscope.com/signin/oauth/authorize
+    tokenUrl: https://www.runscope.com/signin/oauth/access_token
+  sources:
+  - https://help.blazemeter.com/apidocs/api-monitoring/index.htm
