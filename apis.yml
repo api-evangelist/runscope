@@ -78,6 +78,8 @@ apis:
   - type: Authentication
     url: authentication/runscope-authentication.yml
 common:
+- type: Website
+  url: https://www.blazemeter.com/
 - type: DeveloperPortal
   url: https://www.blazemeter.com/product/api-monitoring
 - type: Documentation
